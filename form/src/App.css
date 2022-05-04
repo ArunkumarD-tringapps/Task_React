@@ -1,0 +1,34 @@
+
+body{
+    background-color: rgb(240, 176, 92);
+    
+}
+.container{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid none;
+  width:500px;
+  height:auto;   
+}
+h1{
+    text-align: center;
+}
+p {
+  color: rgb(191, 22, 80);
+}
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
+label{
+ font-size:20px;
+ display:inline-block;
+ padding:12px;
+ margin:10px;
+}
+input{
+ padding:12px;
+ border-radius:10px;
+ margin:10px;
+ font-size:12px;
+}
