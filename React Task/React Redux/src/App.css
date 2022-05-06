@@ -1,0 +1,31 @@
+header{
+    background-color: burlywood;
+    padding:10px;
+    text-align: center;
+    
+}
+#maincontainer{
+    display:flex;
+}
+.sidenav{
+    height:500px;
+    padding:20px;
+    width:20%;
+    background-color: aqua;
+}
+.sidenav li{
+    list-style:none;
+    padding:20px;
+}
+.content{
+    width:80%;
+    text-align:center;
+    padding:20px;
+    background-color: rgb(203, 215, 248);
+}
+
+footer{
+    background-color: burlywood;
+    padding:10px;
+    text-align: center;
+}
